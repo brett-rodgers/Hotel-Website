@@ -32,6 +32,14 @@ p {
   padding: 0 20px;
 }
 
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
 /* Navbar */
 #navbar {
   background: #333;
@@ -72,7 +80,20 @@ p {
 
 /* Showcase */
 #showcase {
-  background-image: url('../img/showcase.jpg') no-repeat center 
+  background: url('../img/showcase.jpg') no-repeat center 
   center/cover;
   height: 600px;
 }
+
+#showcase, showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+
